@@ -1,0 +1,10 @@
+hciconfig hci0 sspmode 1
+hciconfig hci0 down
+hciconfig hci0 up
+
+bluetoothctl
+agent KeyboardOnly
+default-agent
+pair XX:XX:XX:XX:XX:XX
+trust XX:XX:XX:XX:XX:XX
+connect XX:XX:XX:XX:XX:XX
